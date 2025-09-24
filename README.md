@@ -1,4 +1,4 @@
-# Marzban ➜ Pasarguard Migration Script
+# Marzban ➜ Pasarguard Migration Script ( SQLite Only )
 
 This script migrates your **Marzban** configuration and data to the **[Pasarguard Panel](https://github.com/PasarGuard/panel)**.
 
