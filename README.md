@@ -8,7 +8,7 @@ This script migrates your **Marzban** configuration and data to the **[Pasarguar
 
 ---
 
-## 0️⃣ Install Pasarguard First
+## 1️⃣ Install Pasarguard First
 
 Before migrating, install Pasarguard using the instructions from the official repository:  
 ➡️ [https://github.com/PasarGuard/panel](https://github.com/PasarGuard/panel)
@@ -17,7 +17,7 @@ Make sure Pasarguard is installed and running correctly before you proceed.
 
 ---
 
-## 1️⃣ Quick Run (One-Liner)
+## 2️⃣ Quick Run (One-Liner)
 
 Once Pasarguard is installed, you can run the migration directly:
 
