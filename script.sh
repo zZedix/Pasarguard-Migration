@@ -16,4 +16,6 @@ cp -a /var/lib/marzban/xray-config.json /var/lib/pasarguard/
 sed -i 's|image: *gozargah/marzban:latest|image: pasarguard/panel:latest|' /opt/pasarguard/docker-compose.yml
 sed -i 's|- /var/lib/marzban:/var/lib/marzban|- /var/lib/pasarguard:/var/lib/pasarguard|' /opt/pasarguard/docker-compose.yml
 
+pasarguard restart
+
 echo "✅ Migration completed successfully!"
