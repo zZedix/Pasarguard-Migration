@@ -1,6 +1,6 @@
 # Marzban ➜ Pasarguard Migration Script
 
-This script migrates your **Marzban** configuration and data to the **Pasarguard Panel**.
+This script migrates your **Marzban** configuration and data to the **[Pasarguard Panel](https://github.com/PasarGuard/panel)**.
 
 > ⚠️ **Important**  
 > Pasarguard Panel is currently in **beta**.  
@@ -8,9 +8,18 @@ This script migrates your **Marzban** configuration and data to the **Pasarguard
 
 ---
 
-## Quick Run (One-Liner)
+## 0️⃣ Install Pasarguard First
 
-If you trust the source, you can run the script directly:
+Before migrating, install Pasarguard using the instructions from the official repository:  
+➡️ [https://github.com/PasarGuard/panel](https://github.com/PasarGuard/panel)
+
+Make sure Pasarguard is installed and running correctly before you proceed.
+
+---
+
+## 1️⃣ Quick Run (One-Liner)
+
+Once Pasarguard is installed, you can run the migration directly:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/zZedix/Pasarguard-Migration/main/script.sh | sudo bash
